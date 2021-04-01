@@ -1,0 +1,28 @@
+name: YAGOLOGY
+main: foldable.technique.squid.Main
+version: 1.0
+api-version: 1.16
+author: Foldable_Mouse
+prefix: FOLDABLE
+
+commands:
+   yagnose:
+      description: GIVES YAG NOSE (NO LIE)
+      usage: /yagnose
+      permission: yagnose.canexecute
+   yagbread:
+      description: GIVES YAG BREAD (NO LIE)
+      usage: /yagbread
+      permission: yagbread.canexecute
+   yagrecipes:
+      description: Opens Yagology GUI
+      usage: /yagrecipes
+      permission: yagrecipes.canexecute
+   yr:
+      description: Opens Yagology GUI
+      usage: /yr
+      permission: yagrecipes.canexecute
+      
+permissions:
+  yagrecipes.canexecute:
+    default: true
